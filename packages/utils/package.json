@@ -5,5 +5,22 @@
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "tsc -b .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.2",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^29.0.1",
+    "@types/react": "^18.0.19",
+    "jest": "^29.0.3"
   }
 }
