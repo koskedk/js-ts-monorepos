@@ -10,7 +10,14 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "greet": "scripty",
+    "clean": "scripty",
+    "build": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   },
   "volta": {
     "node": "16.17.0",
