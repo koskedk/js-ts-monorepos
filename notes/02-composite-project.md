@@ -107,7 +107,7 @@ and then update your `types/tsconfig.json` so that it exactly matches
      "rootDir": "src"
 ```
 
-Finally create a [`packages/tsconfig.json`](../packages/tsconfig.json) that _refers_ to each package
+Finally create a [`packages/tsconfig.json`](../packages/tsconfig.settings.json) that _refers_ to each package
 
 ```json
 {

@@ -25,7 +25,7 @@ and then each _package root (`packages/*`)_ gets its own "thin" `.eslintrc`
 {
   "extends": "../../.eslintrc",
   "parserOptions": {
-    "project": "tsconfig.json"
+    "project": "tsconfig.settings.json"
   }
 }
 ```
