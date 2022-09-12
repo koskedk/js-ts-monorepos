@@ -17,6 +17,11 @@
     "yarn": "1.22.19"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.1",
+    "lerna": "^5.5.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.1.1"
   }
 }

@@ -45,13 +45,13 @@ export async function apiCall(
   } catch (err) {
     if (err instanceof HTTPError) throw err;
     throw new Error(
-      stringifyError(
-        `Networking/apiCall: An error was encountered while making api call to ${path}`,
-        err
-      )
+        stringifyError(
+            `Networking/apiCall: An error was encountered while making api call to ${path}`,
+            err
+        )
     );
   }
   if (!response.ok)
     throw new HTTPError(response, "Problem while making API call");
-  return json;
+  return json as unknown;
 }
