@@ -5,6 +5,7 @@ import Deferred from "./deferred";
  *
  * @param  getData
  * @param  options
+ * xxx
  */
 export function useAsyncDataEffect<T>(
   getData: () => Promise<T>,
