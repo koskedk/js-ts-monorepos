@@ -1,5 +1,5 @@
 /**
- * @public
+ * @public ss
  */
 export type ResolveHandler<T> = (value: T | PromiseLike<T>) => void;
 /**

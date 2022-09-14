@@ -1,5 +1,5 @@
 /**
- * A user participating in a chat xxx
+ * A user participating in a chat xxx ss
  * @public
  */
 export interface IUser {
