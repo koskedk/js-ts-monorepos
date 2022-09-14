@@ -67,7 +67,7 @@ describe("isTeam() tests", function () {
   });
 });
 
-describe("isTypedArray() tests ", function () {
+describe("isTypedArray() tests", function () {
   test("non-array", () => {
     expect(
       // @ts-expect-error
