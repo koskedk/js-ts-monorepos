@@ -6,5 +6,6 @@ import { format } from "date-fns";
  * @public
  */
 export function formatTimestamp(date: Date): string {
+  console.log(date);
   return format(date, "MMM dd, yyyy HH:MM:SS a");
 }
