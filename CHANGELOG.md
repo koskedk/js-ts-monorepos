@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/mike-north/js-ts-monorepos/compare/v0.2.0...v0.2.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* verdaccio ([8f72a28](https://github.com/mike-north/js-ts-monorepos/commit/8f72a280c48dcf9270c9a108d2731014461ed42a))
+
+
+
+
+
 # [0.2.0](https://github.com/mike-north/js-ts-monorepos/compare/v2.0.0...v0.2.0) (2022-09-14)
 
 
