@@ -39,7 +39,7 @@ export interface ITeam {
 }
 
 /**
- * A chat channel, containing many chat messages
+ * A chat channel, containing many  to chat messages
  * @public
  */
 export interface IChannel {

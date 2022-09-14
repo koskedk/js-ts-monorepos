@@ -10,7 +10,7 @@ function stringifyErrorValue(err: Error): string {
 }
 
 /**
- * Stringify a thrown value
+ * Stringify a thrown value if xist
  *
  * @param errorDescription
  * @param err
