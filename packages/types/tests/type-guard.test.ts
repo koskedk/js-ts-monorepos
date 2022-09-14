@@ -36,7 +36,7 @@ describe("isMessage() tests", function () {
       })
     ).toEqual(true);
   });
-  test("invalid message", () => {
+  test("invalid message ", () => {
     expect(
       isMessage({
         description: "message description",
@@ -47,7 +47,7 @@ describe("isMessage() tests", function () {
   });
 });
 
-describe("isTeam() tests", function () {
+describe("isTeam() tests ", function () {
   test("valid message", () => {
     expect(
       isTeam({
